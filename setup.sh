@@ -8,6 +8,7 @@ instalar_pacotes=(
 	exiftool
 	ffmpeg
 	fortune
+	gcolo3
 	git
 	gnome-console
 	libreoffice-l10n-pt-br
@@ -26,8 +27,10 @@ remover_pacotes=(
 	evince
 	evolution
 	gnome-clocks
+	gnome-contacts
 	gnome-maps
 	gnome-music
+	gnome-snapshot
 	gnome-sound-recorder
 	gnome-terminal
 	gnome-tour
@@ -68,8 +71,8 @@ comandos_avulsos=(
 	# "printf 'n\n\ny\n/home/joao/.gf\n1\n\n' | /media/joao/Backup/Jogos/gf.sh"
 	"sudo rm /home/joao/.face"
 	"sudo rm /home/joao/.face.icon"
-	"sudo rm /usr/share/applications/Fortune.desktop"
-	"sudo rm /usr/share/applications/TeXdoctk.desktop"
+	"sudo rm /usr/share/applications/fortune.desktop"
+	"sudo rm /usr/share/applications/texdoctk.desktop"
 )
 
 log() {
