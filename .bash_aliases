@@ -1,5 +1,5 @@
 # Variáveis Globais
-export DIR_FERRAMENTAS="/home/joao/Área de trabalho/Ferramentas"
+export DIR_DOTFILES="/home/joao/Área de trabalho/dotfiles"
 
 # APT
 alias atualizar='sudo apt update && sudo apt full-upgrade -y'
@@ -26,17 +26,17 @@ alias vincular='git init && git remote add origin'
 alias voltar='git reset --hard HEAD^'
 
 # Scripts
-alias ajustar='bash "$DIR_FERRAMENTAS/ajustar.sh"'
-alias backup='bash "$DIR_FERRAMENTAS/backup.sh"'
-alias contar='bash "$DIR_FERRAMENTAS/contar.sh"'
-alias converter='bash "$DIR_FERRAMENTAS/converter.sh"'
-alias despir='bash "$DIR_FERRAMENTAS/despir.sh"'
-alias extrair='bash "$DIR_FERRAMENTAS/extrair.sh"'
-alias formatar='bash "$DIR_FERRAMENTAS/formatar.sh"'
-alias fps='bash "$DIR_FERRAMENTAS/fps.sh"'
-alias normalizar='bash "$DIR_FERRAMENTAS/normalizar.sh"'
-alias vestir='bash "$DIR_FERRAMENTAS/vestir.sh"'
-alias mover='bash "$DIR_FERRAMENTAS/mover.sh"'
+alias ajustar='bash "$DIR_DOTFILES/ajustar.sh"'
+alias backup='bash "$DIR_DOTFILES/backup.sh"'
+alias contar='bash "$DIR_DOTFILES/contar.sh"'
+alias converter='bash "$DIR_DOTFILES/converter.sh"'
+alias despir='bash "$DIR_DOTFILES/despir.sh"'
+alias extrair='bash "$DIR_DOTFILES/extrair.sh"'
+alias formatar='bash "$DIR_DOTFILES/formatar.sh"'
+alias fps='bash "$DIR_DOTFILES/fps.sh"'
+alias normalizar='bash "$DIR_DOTFILES/normalizar.sh"'
+alias vestir='bash "$DIR_DOTFILES/vestir.sh"'
+alias mover='bash "$DIR_DOTFILES/mover.sh"'
 
 # Outros
 alias cat='lolcat'
